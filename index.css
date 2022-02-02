@@ -1,9 +1,6 @@
-* {
+*{
     box-sizing: border-box;
-}
-
-body{
-    padding: auto;
+    font-family: 'Fira Sans',sans-serif;
 }
 
 .logo{
@@ -12,8 +9,10 @@ body{
 }
 
 .bloc{
-    width: 85%;
-    padding-left: 13.5%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 900px;
+
 }
 
 header{
@@ -38,71 +37,70 @@ header div{
 
 header div a{
     position: relative;
-   width: 50%;
    color: seashell;
    display: flex;
    justify-content: center;
    padding: 8px;
    text-decoration: none;
 }
-header div :first-child{
+header div a :hover{
     background-image: url(img/rings.png);
-    background-size: cover;
-
 }
 
-.bloc1{
+
+.bloc-image1{
     display: flex;
     flex-direction:row;
     justify-content: space-between;
     padding-top: 70px;
 }
 
-.bloc0{
+.container{
     display: flex;
     flex-direction:row; 
     justify-content: space-between;  
-    padding-top: 30px; 
+    padding-top: 30px;
 }
-.bloc2{
+.bloc-image21{
     display: flex;
     flex-direction:row;  
 }
 
-.bloc2 img{
+.bloc-image21 img{
     padding-top: 15px;
 }
 
-.bloc3{
+.bloc-image22{
     display: flex;
     flex-direction:row; 
     
 }
 
-.bloc3 img{
+.bloc-image22 img{
     padding-top: 20px;
 }
 
-.bloc01{
+.bloc-image2{
     display: flex;
     flex-direction:column;    
     
 
 }
 
-.bloc00{
-    width: 43%;
+.bloc-text{
+    width: 350px;
 }
 
-.bloc00 nav h1{
+.bloc-text nav h1{
     font-family:sans-serif;
     color: rgb(114, 13, 13);
 }
 
-.bloc20{
-    padding-right: 50px;
+.image1{
+    padding-right: 20px;
 }
 
-.bloc30{
-    padding-right: 50px;
+.image2{
+    padding-right: 20px;
 }
+
