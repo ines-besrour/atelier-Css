@@ -1,0 +1,108 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    padding: auto;
+}
+
+.logo{
+    z-index: 2;
+
+}
+
+.bloc{
+    width: 85%;
+    padding-left: 13.5%;
+}
+
+header{
+    background-image: url("img/flash_img.png");
+    height: 360px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    align-content: center;
+    position: relative;
+}
+
+header div{
+    display: flex;
+    height: 40px;
+    background-color: rgb(104, 10, 10);
+    justify-content: space-around;
+    background-position: center;
+    position: relative;
+    top: 140px;
+}
+
+header div a{
+    position: relative;
+   width: 50%;
+   color: seashell;
+   display: flex;
+   justify-content: center;
+   padding: 8px;
+   text-decoration: none;
+}
+header div :first-child{
+    background-image: url(img/rings.png);
+    background-size: cover;
+
+}
+
+.bloc1{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    padding-top: 70px;
+}
+
+.bloc0{
+    display: flex;
+    flex-direction:row; 
+    justify-content: space-between;  
+    padding-top: 30px; 
+}
+.bloc2{
+    display: flex;
+    flex-direction:row;  
+}
+
+.bloc2 img{
+    padding-top: 15px;
+}
+
+.bloc3{
+    display: flex;
+    flex-direction:row; 
+    
+}
+
+.bloc3 img{
+    padding-top: 20px;
+}
+
+.bloc01{
+    display: flex;
+    flex-direction:column;    
+    
+
+}
+
+.bloc00{
+    width: 43%;
+}
+
+.bloc00 nav h1{
+    font-family:sans-serif;
+    color: rgb(114, 13, 13);
+}
+
+.bloc20{
+    padding-right: 50px;
+}
+
+.bloc30{
+    padding-right: 50px;
+}
