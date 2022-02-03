@@ -1,0 +1,128 @@
+*{
+    box-sizing: border-box;
+    font-family: bold;
+}
+
+.logo{
+    display: flex;
+    z-index: 2;
+    justify-content: left;
+}
+
+.image-top{
+    width: 100%;
+    background-image: url("image/top_bg1.png");
+    background-repeat:repeat-x;
+    height: 43px;
+    border-bottom: 5px solid rgb(157, 44, 37)
+}
+
+
+.bloc{
+    margin-left: auto;
+    margin-right: auto;
+    width: 900px;
+}
+
+header{
+    background-image: url("image/flash_img.png");
+    height: 360px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    align-content: center;
+    position: relative;
+}
+
+header nav{
+    display: flex;
+    height: 50px;
+    background-color: rgb(104, 10, 10);
+    justify-content: space-around;
+    background-position: center;
+    position: relative;
+    top: 150px;
+}
+
+header nav a{
+    display: inline-flex;
+    width: 20%;
+    height: 100%;
+    padding: 15px 35px;
+    color: seashell;
+    text-decoration: none;
+
+}
+header nav a:hover{
+    background-image: url("image/rings.png");
+    background-color: black;
+    background-repeat: no-repeat;
+    background-position: 100%;
+}
+
+
+.bloc-image1{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    padding-top: 70px;
+}
+
+.container{
+    display: flex;
+    flex-direction:row; 
+    justify-content: space-between;  
+    padding-top: 30px;
+}
+.bloc-image21{
+    display: flex;
+    flex-direction:row;  
+}
+
+.bloc-image21 img{
+    margin-top: 10px;
+}
+
+.bloc-image22{
+    display: flex;
+    flex-direction:row; 
+    margin-top: 40px;
+}
+
+.bloc-image22 img{
+    margin-top: 10px;
+}
+
+.bloc-image2{
+    display: flex;
+    flex-direction:column;    
+    margin-top: 40px;
+}
+
+.bloc-text{
+    margin-top: 40px;
+    width: 420px;
+}
+
+.curseur{
+    padding-top: 10px;
+    color:rgb(157, 44, 37);
+    font-weight: bold;
+    width: max-content;
+}
+.navCursor{
+    cursor: pointer;
+}
+
+.bloc-text div h1{
+    font-family:sans-serif;
+    color: rgb(114, 13, 13);
+}
+
+.image1{
+    padding-right: 20px;
+}
+
+.image2{
+    padding-right: 20px;
+}
